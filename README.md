@@ -1,3 +1,9 @@
+<h1>
+  DATO: SOLO FUNCIONA CON UNA CUENTA SUSCRITA DE SPOTIFY
+  
+</h1>
+
+
 # 🎵 Control de Spotify por Voz con Python
 
 Este proyecto permite controlar Spotify con comandos de voz usando **Spotipy** y **SpeechRecognition**.  
