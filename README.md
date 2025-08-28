@@ -35,8 +35,29 @@ venv\Scripts\activate
 ```
 
 4. Agrega tus credenciales de Spotify:
- - Puedes hacerlo directamente en `app.py` o utilizar un archivo `.env`:
+Puedes hacerlo directamente en `app.py` o utilizar un archivo `.env`:
   
    CLIENT_ID=tu_client_id
    CLIENT_SECRET=tu_client_secret
    REDIRECT_URI=http://localhost:8080/callback
+
+5. Ejecuta el bot:
+ ```bash
+ python app.py
+```
+
+### 2. **Uso / Instrucciones**
+
+- Abre Spotify en tu dispositivo.
+- Ejecuta el script con `python app.py`.
+- Di el nombre de la canción que deseas reproducir.
+- Para salir, di “salir” o presiona `Ctrl+C`.
+
+### 3. **Explicación general del código**
+
+Agregar un breve resumen de las funciones:
+- `escuchar_comando()`: escucha tu voz y convierte el audio en texto.
+- `buscar_cancion(nombre)`: busca la canción más relevante en Spotify.
+- `obtener_dispositivo()`: identifica el dispositivo activo.
+- `reproducir(uri)`: inicia la reproducción de la canción.
+
