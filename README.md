@@ -18,4 +18,10 @@ Puedes buscar y reproducir canciones con solo hablar.
 
 <h2> USO DE DATOS DEL DASHBOARD DE DESARROLLADOR EN CODIGO</h2>
 
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/spotify-voice-control.git
+   cd spotify-voice-control
+Crea un entorno virtual (opcional pero recomendado):
+
 <P>Dentro del archivo app.py se encuentra el codigo del bot </P>
