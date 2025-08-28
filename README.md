@@ -8,10 +8,9 @@ Puedes buscar y reproducir canciones con solo hablar.
 - Cuenta de [Spotify Developer](https://developer.spotify.com)
 - Tener un dispositivo Spotify abierto (PC, teléfono, o web player)
 
-<p>
-  Uso de Spotify Web API (https://developer.spotify.com/) </br>
+
 <img width="800" height="750" alt="image" src="https://github.com/user-attachments/assets/117a3ec1-64eb-48d2-b4a5-ca659cb18b7f" />
-</p>
+
 
 <p>
   Uso de Cliente Id, Client Secrert del Dashboard de desarrollador para crear enlace con el bot y el Spotify.
