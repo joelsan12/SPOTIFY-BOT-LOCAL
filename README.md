@@ -1,8 +1,22 @@
-<H1>
-  BOT MUSICA IMPLEMENTACION CON SPOTIFY
-</H1>
+# 🎵 Control de Spotify por Voz con Python
+
+Este proyecto permite controlar Spotify con comandos de voz usando **Spotipy** y **SpeechRecognition**.  
+Puedes buscar y reproducir canciones con solo hablar.
+
+## 🚀 Requisitos
+- Python 3.8 o superior
+- Cuenta de [Spotify Developer](https://developer.spotify.com)
+- Tener un dispositivo Spotify abierto (PC, teléfono, o web player)
 
 <p>
   Uso de Spotify Web API (https://developer.spotify.com/) </br>
 <img width="800" height="750" alt="image" src="https://github.com/user-attachments/assets/117a3ec1-64eb-48d2-b4a5-ca659cb18b7f" />
 </p>
+
+<p>
+  Uso de Cliente Id, Client Secrert del Dashboard de desarrollador para crear enlace con el bot y el Spotify.
+</p> </br>
+
+<h2> USO DE DATOS DEL DASHBOARD DE DESARROLLADOR EN CODIGO</h2>
+
+<P>Dentro del archivo app.py se encuentra el codigo del bot </P>
