@@ -20,8 +20,23 @@ Puedes buscar y reproducir canciones con solo hablar.
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/spotify-voice-control.git
-   cd spotify-voice-control
+   git clone https://github.com/joelsan12/SPOTIFY-BOT-LOCAL.git
+   cd SPOTIFY-BOT-LOCAL
 Crea un entorno virtual (opcional pero recomendado):
 
-<P>Dentro del archivo app.py se encuentra el codigo del bot </P>
+2. Opcional... Crea y activa un entorno virtual
+
+python -m venv venv
+venv\Scripts\activate
+
+3. Instala las dependencias:
+  ```bash
+  pip install spotipy SpeechRecognition pyaudio
+```
+
+4. Agrega tus credenciales de Spotify:
+ - Puedes hacerlo directamente en `app.py` o utilizar un archivo `.env`:
+  
+   CLIENT_ID=tu_client_id
+   CLIENT_SECRET=tu_client_secret
+   REDIRECT_URI=http://localhost:8080/callback
